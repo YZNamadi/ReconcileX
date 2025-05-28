@@ -2,6 +2,7 @@ const { Op } = require('sequelize');
 const redisClient = require('../config/redis');
 const Transaction = require('../models/transaction');
 
+
 // Create a new transaction
 exports.createTransaction = async (req, res) => {
   try {
