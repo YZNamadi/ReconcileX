@@ -5,6 +5,7 @@ const sequelize = require('../config/database');
 
 class Transaction extends Model {}
 
+
 Transaction.init(
   {
     id: {
