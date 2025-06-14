@@ -7,6 +7,7 @@ const { generateReconciliationReport } = require('../controllers/reconciliationC
 // Create a new transaction
 router.post('/transactions', transactionController.createTransaction);
 
+
 // Get all transactions
 router.get('/transactions', transactionController.getAllTransactions);
 
