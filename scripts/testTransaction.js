@@ -11,6 +11,7 @@ async function createSample() {
       timestamp: new Date(),
     });
 
+    
     console.log('Transaction created:', tx.toJSON());
   } catch (err) {
     console.error('Error creating transaction:', err.message);
