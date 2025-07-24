@@ -1,5 +1,7 @@
 const Transaction = require('../models/transaction');
 
+
+
 async function createSample() {
   try {
     const tx = await Transaction.create({
